@@ -8,12 +8,12 @@
     filter[event.target.name] = event.target.checked;
   };
 
-  onMount(async () => {
-    map = new google.maps.Map(document.getElementById("map"), {
-      center: { lat: -34.397, lng: 150.644 },
-      zoom: 8,
-    });
-  });
+  // onMount(async () => {
+  //     map = new google.maps.Map(document.getElementById("map"), {
+  //       center: { lat: -34.397, lng: 150.644 },
+  //       zoom: 8,
+  //     });
+  //  });
 </script>
 
 <div>

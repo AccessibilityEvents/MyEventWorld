@@ -1,4 +1,5 @@
 <script lang="ts">
+	import {onMount} from 'svelte';
 	import SettingsIcon from '$lib/settings.svelte';
 
 	interface Event {
@@ -17,23 +18,33 @@
 	let search_results: Event[] = [];
 
 	async function search() {
-		const response = await fetch(`${BACKEND_SERVER}/api/all?therm=${search_text}`);
+		if (search_text === '') {
+			return
+		}
+		const response = await fetch(`${BACKEND_SERVER}/api/search?therm=${search_text}`);
 		const data = await response.json();
 		search_results = data;
 	}
+
+	onMount(async () => {
+		const response = await fetch(`${BACKEND_SERVER}/api/all`);
+		const data = await response.json();
+		search_results = data;
+	});
 </script>
 
 <main class="container">
 	<h1>MyEventWorld</h1>
 
-	<input type="search" bind:value={search_text} placeholder="Suche" />
-	<a href="/sidebar">
-		<button style="width: 10%;" class="outline">
-			<SettingsIcon />
-		</button>
-	</a>
-
-	<button on:click={search}>Suchen</button>
+	<form>
+		<input type="search" bind:value={search_text} placeholder="Suche" />
+		<a href="/sidebar">
+			<button style="width: 10%;" class="outline">
+				<SettingsIcon />
+			</button>
+		</a>
+		<button type="submit" on:click={search}>Suchen</button>
+	</form>
 
 	{#each search_results as result}
 		<article>

@@ -9,10 +9,22 @@ from flask import (
     send_from_directory,
 )
 
-app = Flask(__name__, template_folder=path.join("frontend", "dist"), static_url_path="/", static_folder=path.join("frontend", "dist"))
+app = Flask(__name__)
 
 
-@app.route('/')
+# Path for our main Svelte page
+@app.route("/")
+def base():
+    return send_from_directory("frontend/dist", "index.html")
+
+
+# Path for all the static files (compiled JS/CSS, etc.)
+@app.route("/<path:path>")
+def home(path):
+    return send_from_directory("frontend/dist", path)
+
+
+@app.route("/")
 def index():
     return render_template("index.html")
 

@@ -1,8 +1,8 @@
 <script>
-	import { onMount, reactive } from 'svelte';
+	// import { onMount, reactive } from 'svelte';
 	let ort = '';
 	let distanz = 0;
-	let filter = reactive({});
+	/*let filter = reactive({});
 
 	const updateFilter = (event) => {
 		filter[event.target.name] = event.target.checked;
@@ -13,7 +13,7 @@
 			center: { lat: -34.397, lng: 150.644 },
 			zoom: 8
 		});
-	});
+	});*/
 </script>
 
 <main class="container">
@@ -30,11 +30,13 @@
 	<div>
 		<h2>Filter für Veranstaltungen</h2>
 		<label>
-			<input type="checkbox" name="filter1" on:change={updateFilter} />
+			<input type="checkbox" name="filter1" />
+			<!-- <input type="checkbox" name="filter1" on:change={updateFilter} /> -->
 			Filter1
 		</label>
 		<label>
-			<input type="checkbox" name="filter2" on:change={updateFilter} />
+			<input type="checkbox" name="filter2" />
+			<!-- <input type="checkbox" name="filter2" on:change={updateFilter} /> -->
 			Filter2
 		</label>
 	</div>
@@ -46,3 +48,4 @@
 		width: 100%;
 	}
 </style>
+

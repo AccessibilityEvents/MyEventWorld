@@ -20,6 +20,7 @@ def read_data():
 	times_end = []
 	descriptions = []
 	links = []
+	new_times = []
 	costs = []
 	addresses = []
 	times = []
@@ -37,34 +38,6 @@ def read_data():
 		number = data['items'][num]['hausnummer']
 		time = data['items'][num]['uhrzeit']
 
-		time_words = []
-		new_times = []
-		try:
-			for word in time.split(" "):
-				time_words.append(word)
-		except:
-			continue
-		try:
-			for word in time_words:
-				try:
-					if not ":" in word:
-						test = int(word)
-						new_times.append(word)
-					else:
-						try:
-							new_word, new_word2 = word.split(":")
-							test = int(new_word)
-							test = int(new_word2)
-							new_times.append(word)
-						except:
-							continue
-
-				except:
-					continue
-		except:
-			continue
-
-		times.append(time)
 		descriptions.append(description)
 		costs.append(cost)
 		links.append(link)

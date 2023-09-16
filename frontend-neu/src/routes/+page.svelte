@@ -2,18 +2,9 @@
 	import { onMount } from 'svelte';
 	import SettingsIcon from '$lib/icons/settings.svelte';
 	import EventCard from './EventCard.svelte';
+	import type { Event } from '$lib/event.ts'
 
-	interface Event {
-		Titel: string;
-		Start: string;
-		Ende: string;
-		Ort: string;
-		Link: string;
-		Beschreibung: string;
-		Preis: string;
-	}
-
-	const BACKEND_SERVER = 'http://192.168.53.46:5000/';
+	const BACKEND_SERVER = 'http://192.168.167.46:5000/';
 
 	let search_text = '';
 	let search_results: Event[] = [];
@@ -51,6 +42,15 @@
 
 	<form>
 		<input type="search" bind:value={search_text} placeholder="Suche" autofocus />
+
+		<!-- <div style="display: flex; align-items: center; gap: 2rem;">
+			<a href="/settings">
+				<button class="outline">
+					<SettingsIcon /> Hi
+				</button>
+			</a>
+			<p>Hi</p>
+		</div> -->
 		<!--
 		<a href="/settings">
 			<button style="width: 10%;" class="outline">
@@ -69,14 +69,7 @@
 		<h1 aria-busy="true" />
 	{:else}
 		{#each search_results as result}
-			<EventCard
-				titel={result.Titel}
-				beschreibung={result.Beschreibung}
-				ort={result.Ort}
-				start={result.Start}
-				preis={result.Preis}
-				link={result.Link}
-			/>
+			<EventCard event={result} />
 		{/each}
 	{/if}
 </main>

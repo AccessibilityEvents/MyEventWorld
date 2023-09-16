@@ -2,15 +2,15 @@ import requests
 
 url = "https://www.stadt-koeln.de/externe-dienste/open-data/events-od.php"
 
-# Send an HTTP GET request to the URL
+L
 response = requests.get(url)
 
-# Check if the request was successful
+
 if response.status_code == 200:
     # Parse the JSON data
     data = response.json()
 
-    # Extract and print the desired information for each item
+
     for item in data["items"]:
         beginndatum = item["beginndatum"]
         endedatum = item["endedatum"]

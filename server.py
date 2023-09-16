@@ -1,5 +1,6 @@
 from os import path
 from flask_cors import CORS
+
 import suche
 
 from flask import (
@@ -12,6 +13,7 @@ from flask import (
 )
 
 app = Flask(__name__)
+cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
 
 @app.route("/")
 def main():

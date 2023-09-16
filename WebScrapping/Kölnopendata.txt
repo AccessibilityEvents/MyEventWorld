@@ -16,10 +16,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33991/index.html",
@@ -39,7 +39,7 @@
             "oepnv": "",
             "latitude": "50.93462435",
             "longitude": "6.94915027",
-            "preis": " <br /> Die Teilnahme ist kostenlos."
+            "preis": "  Die Teilnahme ist kostenlos."
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33780/index.html",
@@ -56,10 +56,10 @@
             "stadtteil": "Chorweiler",
             "strasse": "Pariser Platz",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler)<br /> Bus-Linien 120, 121, 122, 125 und 126 (Haltestelle Chorweiler)<br /> S-Bahn-Linie S 11 (Haltestelle Chorweiler)<br /> ",
+            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler) Bus-Linien 120, 121, 122, 125 und 126 (Haltestelle Chorweiler) S-Bahn-Linie S 11 (Haltestelle Chorweiler) ",
             "latitude": "51.0223178043",
             "longitude": "6.89936443123",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33636/index.html",
@@ -76,10 +76,10 @@
             "stadtteil": "Kalk",
             "strasse": "Kalker Hauptstraße",
             "hausnummer": "247-273",
-            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Kalk-Kapelle)<br /> Bus-Linie 159 (Haltestelle Kalk-Kapelle)<br /> S-Bahn-Linie S 12 und Regionalbahn-Linie RB 25 (Haltestelle Kalk-Trimbornstraße)",
+            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Kalk-Kapelle) Bus-Linie 159 (Haltestelle Kalk-Kapelle) S-Bahn-Linie S 12 und Regionalbahn-Linie RB 25 (Haltestelle Kalk-Trimbornstraße)",
             "latitude": "50.9391855933",
             "longitude": "7.00873360836",
-            "preis": " <br /> Kostenfrei<br /> "
+            "preis": "  Kostenfrei "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32907/index.html",
@@ -96,10 +96,10 @@
             "stadtteil": "Kalk",
             "strasse": "Kalker Hauptstraße",
             "hausnummer": "247-273",
-            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Kalk-Kapelle)<br /> Bus-Linie 159 (Haltestelle Kalk-Kapelle)<br /> S-Bahn-Linie S 12 und Regionalbahn-Linie RB 25 (Haltestelle Kalk-Trimbornstraße)",
+            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Kalk-Kapelle) Bus-Linie 159 (Haltestelle Kalk-Kapelle) S-Bahn-Linie S 12 und Regionalbahn-Linie RB 25 (Haltestelle Kalk-Trimbornstraße)",
             "latitude": "50.9391855933",
             "longitude": "7.00873360836",
-            "preis": " <br /> Der Eintritt ist frei.<br /> "
+            "preis": "  Der Eintritt ist frei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/29842/index.html",
@@ -116,7 +116,7 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.936049077564654",
             "longitude": " 6.9476998238037595 ",
             "preis": "Der Eintritt ist frei."
@@ -136,10 +136,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33542/index.html",
@@ -156,10 +156,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Der Eintritt kostet 8 Euro, ermäßigt 6 Euro, mit Schwerbehindertenausweis 4 Euro.<br /> "
+            "preis": "  Der Eintritt kostet 8 Euro, ermäßigt 6 Euro, mit Schwerbehindertenausweis 4 Euro. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33997/index.html",
@@ -179,7 +179,7 @@
             "oepnv": null,
             "latitude": "50.9639215",
             "longitude": "6.9441439",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32609/index.html",
@@ -196,10 +196,10 @@
             "stadtteil": "Altstadt/Nord",
             "strasse": "",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linien 12, 15, 16 und 18 (Haltestelle Ebertplatz)<br /> Bus-Linien 127, 140 und 184 (Haltestelle Ebertplatz)<br /> S-Bahn-Linien S 6, S 11 und S 12 (Haltestelle Köln Hauptbahnhof)",
+            "oepnv": "Stadtbahn-Linien 12, 15, 16 und 18 (Haltestelle Ebertplatz) Bus-Linien 127, 140 und 184 (Haltestelle Ebertplatz) S-Bahn-Linien S 6, S 11 und S 12 (Haltestelle Köln Hauptbahnhof)",
             "latitude": "50.949279",
             "longitude": "6.956870999999978",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32606/index.html",
@@ -216,10 +216,10 @@
             "stadtteil": "Neustadt/Nord",
             "strasse": "Neusser Wall",
             "hausnummer": "33",
-            "oepnv": "Stadtbahn-Linien 5, 16 und 18 (Haltestelle Reichensperger Platz)<br /> Bus-Linie 140 (Haltestelle Reichensperger Platz)",
+            "oepnv": "Stadtbahn-Linien 5, 16 und 18 (Haltestelle Reichensperger Platz) Bus-Linie 140 (Haltestelle Reichensperger Platz)",
             "latitude": "50.9571902506",
             "longitude": "6.96139054737",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32621/index.html",
@@ -236,10 +236,10 @@
             "stadtteil": "Altstadt/Nord",
             "strasse": "",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linien 12, 15, 16 und 18 (Haltestelle Ebertplatz)<br /> Bus-Linien 127, 140 und 184 (Haltestelle Ebertplatz)<br /> S-Bahn-Linien S 6, S 11 und S 12 (Haltestelle Köln Hauptbahnhof)",
+            "oepnv": "Stadtbahn-Linien 12, 15, 16 und 18 (Haltestelle Ebertplatz) Bus-Linien 127, 140 und 184 (Haltestelle Ebertplatz) S-Bahn-Linien S 6, S 11 und S 12 (Haltestelle Köln Hauptbahnhof)",
             "latitude": "50.949279",
             "longitude": "6.956870999999978",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32602/index.html",
@@ -259,7 +259,7 @@
             "oepnv": "Stadtbahn-Linien 3, 4, 5, 16 und 18 (Haltestelle Apellhofplatz)",
             "latitude": "",
             "longitude": "",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34054/index.html",
@@ -296,7 +296,7 @@
             "stadtteil": "Deutz",
             "strasse": "Rheinparkweg",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Bahnhof Deutz/Messe)<br /> Stadtbahn-Linien 3 und 4 (Haltestelle Bahnhof Deutz/LANXESS arena)<br /> Bus-Linien 153 und 156 (Haltestelle Bahnhof Deutz/LANXESS arena)<br /> S-Bahn Linien S 6, S 11, S 12, S 13 sowie Deutsche Bahn (Haltestelle Bahnhof Deutz/Messe)",
+            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Bahnhof Deutz/Messe) Stadtbahn-Linien 3 und 4 (Haltestelle Bahnhof Deutz/LANXESS arena) Bus-Linien 153 und 156 (Haltestelle Bahnhof Deutz/LANXESS arena) S-Bahn Linien S 6, S 11, S 12, S 13 sowie Deutsche Bahn (Haltestelle Bahnhof Deutz/Messe)",
             "latitude": "50.9497795",
             "longitude": " 6.975606999999968 ",
             "preis": "Die Aktion ist kostenlos."
@@ -316,10 +316,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linien 1, 7 und 9 (Haltestelle Heumarkt)<br /> Stadtbahn-Linien 3 und 4 (Haltestelle Severinstraße)<br /> Bus-Linien 132 und 133 (Haltestelle Severinstraße)<br /> Bus-Linie 106 (Haltestelle Rheinauhafen)",
+            "oepnv": "Stadtbahn-Linien 1, 7 und 9 (Haltestelle Heumarkt) Stadtbahn-Linien 3 und 4 (Haltestelle Severinstraße) Bus-Linien 132 und 133 (Haltestelle Severinstraße) Bus-Linie 106 (Haltestelle Rheinauhafen)",
             "latitude": "50.9275304790059",
             "longitude": "6.966127629113771",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33953/index.html",
@@ -336,10 +336,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Veranstaltung ist kostenlos.<br /> "
+            "preis": "  Die Veranstaltung ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34075/index.html",
@@ -356,10 +356,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33018/index.html",
@@ -376,10 +376,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33709/index.html",
@@ -399,7 +399,7 @@
             "oepnv": null,
             "latitude": null,
             "longitude": null,
-            "preis": " <br /> Die Führung ist kostenlos<br /> "
+            "preis": "  Die Führung ist kostenlos "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34051/index.html",
@@ -408,7 +408,7 @@
             "title": "Fußball-Inklusionstage",
             "description": "Zum zweiten Mal wird im Rahmen der Fußball-Inklusionstage die Vielfalt des Handicap-Fußballs in Köln erlebbar sein. Ein Highlight: der Final-Spieltag der Blindenfußball-Bundesliga am Samstag. ",
             "teaserbild": "/mediaasset/bilder/sport/fußball_inklusionstage_2022_.jpg",
-            "uhrzeit": "Freitag: 9 bis 18 Uhr<br /> Samstag: 9 bis 18 Uhr <br /> Sonntag: 9 bis 17 Uhr<br /> ",
+            "uhrzeit": "Freitag: 9 bis 18 Uhr Samstag: 9 bis 18 Uhr  Sonntag: 9 bis 17 Uhr ",
             "veranstaltungsort": "Roncalliplatz",
             "plz": "50667",
             "ort": "Köln",
@@ -416,10 +416,10 @@
             "stadtteil": "Altstadt/Nord",
             "strasse": "",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linien 5, 16, 18 (Haltestelle Dom/Hauptbahnhof)<br /> Bus-Linie 132 (Haltestelle Dom/Hauptbahnhof)<br /> S-Bahn-Linien S 6, S 11, S 12, S 13 sowie Deutsche Bahn (Haltestelle Köln Hauptbahnhof) ",
+            "oepnv": "Stadtbahn-Linien 5, 16, 18 (Haltestelle Dom/Hauptbahnhof) Bus-Linie 132 (Haltestelle Dom/Hauptbahnhof) S-Bahn-Linien S 6, S 11, S 12, S 13 sowie Deutsche Bahn (Haltestelle Köln Hauptbahnhof) ",
             "latitude": "50.9405040934725",
             "longitude": "6.958218812942505",
-            "preis": " <br /> Der Eintritt ist frei"
+            "preis": "  Der Eintritt ist frei"
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32624/index.html",
@@ -436,10 +436,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Rudolfplatz",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 7, 12 und 15 (Haltestelle Rudolfplatz)<br /> Bus-Linien 136 und 146 (Haltestelle Rudolfplatz)",
+            "oepnv": "Stadtbahn-Linien 1, 7, 12 und 15 (Haltestelle Rudolfplatz) Bus-Linien 136 und 146 (Haltestelle Rudolfplatz)",
             "latitude": "50.9358803874",
             "longitude": "6.94009357093",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32631/index.html",
@@ -456,10 +456,10 @@
             "stadtteil": "Neustadt/Nord",
             "strasse": "Neusser Wall",
             "hausnummer": "33",
-            "oepnv": "Stadtbahn-Linien 5, 16 und 18 (Haltestelle Reichensperger Platz)<br /> Bus-Linie 140 (Haltestelle Reichensperger Platz)",
+            "oepnv": "Stadtbahn-Linien 5, 16 und 18 (Haltestelle Reichensperger Platz) Bus-Linie 140 (Haltestelle Reichensperger Platz)",
             "latitude": "50.9571902506",
             "longitude": "6.96139054737",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32625/index.html",
@@ -476,10 +476,10 @@
             "stadtteil": "Neustadt/Süd",
             "strasse": "Sachsenring",
             "hausnummer": "42",
-            "oepnv": "Stadtbahn-Linie 12 (Haltestelle Eifelstraße)<br /> Stadtbahn-Linein 15 und 16 (Haltestelle Ulrepforte)<br /> ",
+            "oepnv": "Stadtbahn-Linie 12 (Haltestelle Eifelstraße) Stadtbahn-Linein 15 und 16 (Haltestelle Ulrepforte) ",
             "latitude": "50.9242857",
             "longitude": "6.953086600000006",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32628/index.html",
@@ -496,10 +496,10 @@
             "stadtteil": "Neustadt/Süd",
             "strasse": "Oberländer Wall/Ecke Titusstraße",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linie 16 (Haltestelle Schönhauser Straße)<br /> Bus-Linien 106, 132 und 133 (Haltestelle Alteburger Wall)",
+            "oepnv": "Stadtbahn-Linie 16 (Haltestelle Schönhauser Straße) Bus-Linien 106, 132 und 133 (Haltestelle Alteburger Wall)",
             "latitude": "50.91763806998229",
             "longitude": "6.967646906884738",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32633/index.html",
@@ -519,7 +519,7 @@
             "oepnv": null,
             "latitude": "50.983907126606006",
             "longitude": "6.87139335421449",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32630/index.html",
@@ -536,10 +536,10 @@
             "stadtteil": "Neustadt/Süd",
             "strasse": "Oberländer Wall/Ecke Titusstraße",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linie 16 (Haltestelle Schönhauser Straße)<br /> Bus-Linien 106, 132 und 133 (Haltestelle Alteburger Wall)",
+            "oepnv": "Stadtbahn-Linie 16 (Haltestelle Schönhauser Straße) Bus-Linien 106, 132 und 133 (Haltestelle Alteburger Wall)",
             "latitude": "50.91763806998229",
             "longitude": "6.967646906884738",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32627/index.html",
@@ -559,7 +559,7 @@
             "oepnv": null,
             "latitude": "50.9219794",
             "longitude": "6.959374799999978 ",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32622/index.html",
@@ -579,7 +579,7 @@
             "oepnv": null,
             "latitude": "50.983907126606006",
             "longitude": "6.87139335421449",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33737/index.html",
@@ -599,7 +599,7 @@
             "oepnv": "",
             "latitude": "51.049544",
             "longitude": "6.849557",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33536/index.html",
@@ -636,10 +636,10 @@
             "stadtteil": "Altstadt/Nord",
             "strasse": "Bischofsgartenstraße",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 5, 16 und 18 (Haltestelle Dom/Hauptbahnhof)<br /> Bus-Linie 132 (Haltestelle Dom/Hauptbahnhof)<br /> S-Bahn-Linien S 6, S 11, S 12 und S 13 sowie Deutsche Bahn (Haltestelle Köln Hauptbahnhof)",
+            "oepnv": "Stadtbahn-Linien 5, 16 und 18 (Haltestelle Dom/Hauptbahnhof) Bus-Linie 132 (Haltestelle Dom/Hauptbahnhof) S-Bahn-Linien S 6, S 11, S 12 und S 13 sowie Deutsche Bahn (Haltestelle Köln Hauptbahnhof)",
             "latitude": "50.9405823925",
             "longitude": "6.96068373391",
-            "preis": " <br /> 30 Euro<br /> "
+            "preis": "  30 Euro "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33537/index.html",
@@ -679,7 +679,7 @@
             "oepnv": null,
             "latitude": "50.886837005615234",
             "longitude": "7.053635597229004",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33735/index.html",
@@ -699,7 +699,7 @@
             "oepnv": "",
             "latitude": "50.9429630861",
             "longitude": "6.92855478621",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33794/index.html",
@@ -716,10 +716,10 @@
             "stadtteil": "Weidenpesch",
             "strasse": "Neusser Straße",
             "hausnummer": "450",
-            "oepnv": "Stadtbahn-Linien 12, 13 und 15 (Haltestelle Neusser Straße/Gürtel)<br /> Bus-Linien 121, 140, 147 und 186 (Haltestelle Neusser Straße/Gürtel)",
+            "oepnv": "Stadtbahn-Linien 12, 13 und 15 (Haltestelle Neusser Straße/Gürtel) Bus-Linien 121, 140, 147 und 186 (Haltestelle Neusser Straße/Gürtel)",
             "latitude": "50.9728219415",
             "longitude": "6.9516323056",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33815/index.html",
@@ -736,10 +736,10 @@
             "stadtteil": "Rodenkirchen",
             "strasse": "Schillingsrotter Straße",
             "hausnummer": "38",
-            "oepnv": "Stadtbahn-Linie 16 (Haltestelle Rodenkirchen Bahnhof)<br /> Bus-Linien 130, 131 und 135 (Haltestelle Rodenkirchen Bahnhof)",
+            "oepnv": "Stadtbahn-Linie 16 (Haltestelle Rodenkirchen Bahnhof) Bus-Linien 130, 131 und 135 (Haltestelle Rodenkirchen Bahnhof)",
             "latitude": "50.8891493",
             "longitude": "6.9917972000000645",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33818/index.html",
@@ -756,10 +756,10 @@
             "stadtteil": "Mülheim",
             "strasse": "Wiener Platz",
             "hausnummer": "2a",
-            "oepnv": "Stadtbahn-Linien 4, 13 und 18 (Haltestelle Mülheim Wiener Platz)<br /> Bus-Linien 151, 152, 153, 159 und 190 (Haltestelle Mülheim Wiener Platz)",
+            "oepnv": "Stadtbahn-Linien 4, 13 und 18 (Haltestelle Mülheim Wiener Platz) Bus-Linien 151, 152, 153, 159 und 190 (Haltestelle Mülheim Wiener Platz)",
             "latitude": "50.96103",
             "longitude": "7.004799999999932",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34029/index.html",
@@ -768,7 +768,7 @@
             "title": "Impuls Plus: Sinfonische Fantasie",
             "description": "Einführungsworkshop plus Konzert Junge Deutsche Philharmonie. In Kooperation mit der Kölner Philharmonie in der Zentralbibliothek. ",
             "teaserbild": "/mediaasset/bilder/veranstaltungen/stadtbibliothek/einmalige-veranstaltungen/junge_deutsche_philharmonie_©_achimreissner.jpg",
-            "uhrzeit": "17:30 Uhr Workshop in der Stadtbibliothek<br /> 20 Uhr Konzert in der Philharmonie",
+            "uhrzeit": "17:30 Uhr Workshop in der Stadtbibliothek 20 Uhr Konzert in der Philharmonie",
             "veranstaltungsort": "Stadtbibliothek Köln",
             "plz": "50676",
             "ort": "Köln",
@@ -776,10 +776,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Kosten: 34 Euro / ermäßigt 17 Euro pro teilnehmende Person inklusive Einführung, Konzertkarte und Vorverkauf-Gebühren. Ermäßigung für Schüler*innen und Studierende unter 29 Jahren sowie Köln-Pass-Inhabende. Ein VRS-Ticket (Verkehrsbund Rhein-Sieg)"
+            "preis": "  Kosten: 34 Euro / ermäßigt 17 Euro pro teilnehmende Person inklusive Einführung, Konzertkarte und Vorverkauf-Gebühren. Ermäßigung für Schüler*innen und Studierende unter 29 Jahren sowie Köln-Pass-Inhabende. Ein VRS-Ticket (Verkehrsbund Rhein-Sieg)"
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33745/index.html",
@@ -796,10 +796,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33387/index.html",
@@ -816,10 +816,10 @@
             "stadtteil": "Mülheim",
             "strasse": "Berliner Straße",
             "hausnummer": "",
-            "oepnv": "Bus-Linien: 151, 152, 260, 434 (Von-Sparr-Straße)<br /> Stadtbahn-Linie 4 (Von-Sparr-Straße)",
+            "oepnv": "Bus-Linien: 151, 152, 260, 434 (Von-Sparr-Straße) Stadtbahn-Linie 4 (Von-Sparr-Straße)",
             "latitude": "50.971454",
             "longitude": "7.008770",
-            "preis": " <br /> Die Teilnahme ist kostenfrei.<br /> "
+            "preis": "  Die Teilnahme ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34087/index.html",
@@ -839,7 +839,7 @@
             "oepnv": "",
             "latitude": "50.936516",
             "longitude": "6.955559",
-            "preis": " <br /> Die Veranstaltung ist kostenlos<br /> "
+            "preis": "  Die Veranstaltung ist kostenlos "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33802/index.html",
@@ -856,10 +856,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Der Eintritt ist frei.<br /> "
+            "preis": "  Der Eintritt ist frei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34017/index.html",
@@ -879,7 +879,7 @@
             "oepnv": null,
             "latitude": "50.8524247",
             "longitude": "7.0854168",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> <br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei.  "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33733/index.html",
@@ -888,7 +888,7 @@
             "title": "Weltkindertag – Mottowoche",
             "description": "Spiel und Spaß auf dem Pariser Platz in Chorweiler",
             "teaserbild": "",
-            "uhrzeit": "15 bis 19 Uhr<br /> ",
+            "uhrzeit": "15 bis 19 Uhr ",
             "veranstaltungsort": "Pariser Platz",
             "plz": "50765",
             "ort": "Köln",
@@ -896,10 +896,10 @@
             "stadtteil": "Chorweiler",
             "strasse": null,
             "hausnummer": null,
-            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler)<br /> Bus-Linien 120, 121, 122, 125 und 126 (Haltestelle Chorweiler)<br /> S-Bahn-Linie S 11 (Haltestelle Chorweiler)",
+            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler) Bus-Linien 120, 121, 122, 125 und 126 (Haltestelle Chorweiler) S-Bahn-Linie S 11 (Haltestelle Chorweiler)",
             "latitude": "51.02239669999999",
             "longitude": "6.8983683000000155",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33813/index.html",
@@ -916,10 +916,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33521/index.html",
@@ -936,10 +936,10 @@
             "stadtteil": "Sülz",
             "strasse": "Wichterrichstraße",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linie 18 (Haltestelle Sülzburgstraße)<br /> Bus-Linie 131 (Haltestelle Sülzburgstraße)",
+            "oepnv": "Stadtbahn-Linie 18 (Haltestelle Sülzburgstraße) Bus-Linie 131 (Haltestelle Sülzburgstraße)",
             "latitude": "50.9162685",
             "longitude": "6.925966700000004",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33727/index.html",
@@ -956,10 +956,10 @@
             "stadtteil": "Deutz",
             "strasse": "Rheinparkweg",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Bahnhof Deutz/Messe)<br /> Stadtbahn-Linien 3 und 4 (Haltestelle Bahnhof Deutz/LANXESS arena)<br /> Bus-Linien 153 und 156 (Haltestelle Bahnhof Deutz/LANXESS arena)<br /> S-Bahn Linien S 6, S 11, S 12, S 13 sowie Deutsche Bahn (Haltestelle Bahnhof Deutz/Messe)",
+            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Bahnhof Deutz/Messe) Stadtbahn-Linien 3 und 4 (Haltestelle Bahnhof Deutz/LANXESS arena) Bus-Linien 153 und 156 (Haltestelle Bahnhof Deutz/LANXESS arena) S-Bahn Linien S 6, S 11, S 12, S 13 sowie Deutsche Bahn (Haltestelle Bahnhof Deutz/Messe)",
             "latitude": "50.9497795",
             "longitude": " 6.975606999999968 ",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33538/index.html",
@@ -996,10 +996,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Jabachstraße 1 (Eingang: Leonhard-Tietz-Straße",
             "hausnummer": "6)",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16 und 18 (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16 und 18 (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9341967733",
             "longitude": "6.95203592657",
-            "preis": "Der Eintritt ist frei.<br /> "
+            "preis": "Der Eintritt ist frei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33804/index.html",
@@ -1016,10 +1016,10 @@
             "stadtteil": "Weidenpesch",
             "strasse": "Neusser Straße",
             "hausnummer": "450",
-            "oepnv": "Stadtbahn-Linien 12, 13 und 15 (Haltestelle Neusser Straße/Gürtel)<br /> Bus-Linien 121, 140, 147 und 186 (Haltestelle Neusser Straße/Gürtel)",
+            "oepnv": "Stadtbahn-Linien 12, 13 und 15 (Haltestelle Neusser Straße/Gürtel) Bus-Linien 121, 140, 147 und 186 (Haltestelle Neusser Straße/Gürtel)",
             "latitude": "50.9728219415",
             "longitude": "6.9516323056",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33808/index.html",
@@ -1036,10 +1036,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34016/index.html",
@@ -1059,7 +1059,7 @@
             "oepnv": null,
             "latitude": "50.886837005615234",
             "longitude": "7.053635597229004",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33994/index.html",
@@ -1079,7 +1079,7 @@
             "oepnv": "",
             "latitude": "50.9201661284",
             "longitude": "6.95814201891",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33809/index.html",
@@ -1096,10 +1096,10 @@
             "stadtteil": "Porz",
             "strasse": "Friedrich-Ebert-Ufer",
             "hausnummer": "64-70",
-            "oepnv": "Stadtbahn-Linie 7 (Haltestelle Porz-Markt)<br /> Bus-Linien 152, 154, 160, 161 und 162 (Haltestelle Porz-Markt)",
+            "oepnv": "Stadtbahn-Linie 7 (Haltestelle Porz-Markt) Bus-Linien 152, 154, 160, 161 und 162 (Haltestelle Porz-Markt)",
             "latitude": "50.884947346",
             "longitude": "7.05444525868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33806/index.html",
@@ -1116,10 +1116,10 @@
             "stadtteil": "Weidenpesch",
             "strasse": "Neusser Straße",
             "hausnummer": "450",
-            "oepnv": "Stadtbahn-Linien 12, 13 und 15 (Haltestelle Neusser Straße/Gürtel)<br /> Bus-Linien 121, 140, 147 und 186 (Haltestelle Neusser Straße/Gürtel)",
+            "oepnv": "Stadtbahn-Linien 12, 13 und 15 (Haltestelle Neusser Straße/Gürtel) Bus-Linien 121, 140, 147 und 186 (Haltestelle Neusser Straße/Gürtel)",
             "latitude": "50.9728219415",
             "longitude": "6.9516323056",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33517/index.html",
@@ -1136,10 +1136,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Severinstraße",
             "hausnummer": "15",
-            "oepnv": "Stadtbahn-Linien 3 und 4 (Haltestelle Severinstraße)<br /> Stadtbahn-Linien 15 und 16 (Haltestelle Chlodwigplatz)<br /> Bus-Linien 106, 132 und 133 (Haltestelle Chlodwigplatz)",
+            "oepnv": "Stadtbahn-Linien 3 und 4 (Haltestelle Severinstraße) Stadtbahn-Linien 15 und 16 (Haltestelle Chlodwigplatz) Bus-Linien 106, 132 und 133 (Haltestelle Chlodwigplatz)",
             "latitude": "50.9224987",
             "longitude": "6.959025699999984",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33801/index.html",
@@ -1156,10 +1156,10 @@
             "stadtteil": "Chorweiler",
             "strasse": "Pariser Platz",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler)<br /> Bus-Linien 120, 121, 122, 125 und 126 (Haltestelle Chorweiler)<br /> S-Bahn-Linie S 11 (Haltestelle Chorweiler)<br /> ",
+            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler) Bus-Linien 120, 121, 122, 125 und 126 (Haltestelle Chorweiler) S-Bahn-Linie S 11 (Haltestelle Chorweiler) ",
             "latitude": "51.0223178043",
             "longitude": "6.89936443123",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33799/index.html",
@@ -1176,10 +1176,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34048/index.html",
@@ -1199,7 +1199,7 @@
             "oepnv": "Stadtbahn-Linie 9 (Haltestelle Mauritiuskirche)",
             "latitude": "50.9343893",
             "longitude": "6.944866499999989 ",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34078/index.html",
@@ -1216,10 +1216,10 @@
             "stadtteil": "Deutz",
             "strasse": "Rheinparkweg",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4 und 9 (Haltestelle Bahnhof Deutz/Messe)<br /> Bus-Linie 150 (Haltestelle Im Rheinpark)<br /> Bus-Linien 250 und 260 (Haltestelle Bahnhof Deutz/Messe)<br /> Deutsche Bahn S6, S11, S12, S13, RE und RB (Haltestelle Köln Messe/Deutz)<br /> <br /> Shuttlebus ab 60 Minuten vor und bis 30 Minuten nach der Vorstellung ab Haltestelle Bahnhof Deutz/Messe (kostenfrei).",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4 und 9 (Haltestelle Bahnhof Deutz/Messe) Bus-Linie 150 (Haltestelle Im Rheinpark) Bus-Linien 250 und 260 (Haltestelle Bahnhof Deutz/Messe) Deutsche Bahn S6, S11, S12, S13, RE und RB (Haltestelle Köln Messe/Deutz)  Shuttlebus ab 60 Minuten vor und bis 30 Minuten nach der Vorstellung ab Haltestelle Bahnhof Deutz/Messe (kostenfrei).",
             "latitude": "50.9458573390131",
             "longitude": " 6.973545850817914 ",
-            "preis": "Der Eintritt ist frei.<br /> "
+            "preis": "Der Eintritt ist frei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34031/index.html",
@@ -1256,10 +1256,10 @@
             "stadtteil": "Altstadt/Nord",
             "strasse": "Rathausplatz",
             "hausnummer": "2",
-            "oepnv": "Stadtbahn-Linie 5 (Haltestelle Rathaus)<br /> Stadtbahn-Linien 1, 7 und 9 (Haltestelle Heumarkt)<br /> Stadtbahn-Linien 16 und 18 (Haltestelle Dom/Hauptbahnhof)<br /> Bus-Linien 106, 132 und 133 (Haltestelle Heumarkt)<br /> S-Bahn-Linien S 6, S 11, S 12, S 13 und Deutsche Bahn (Haltestelle Köln Hauptbahnhof)",
+            "oepnv": "Stadtbahn-Linie 5 (Haltestelle Rathaus) Stadtbahn-Linien 1, 7 und 9 (Haltestelle Heumarkt) Stadtbahn-Linien 16 und 18 (Haltestelle Dom/Hauptbahnhof) Bus-Linien 106, 132 und 133 (Haltestelle Heumarkt) S-Bahn-Linien S 6, S 11, S 12, S 13 und Deutsche Bahn (Haltestelle Köln Hauptbahnhof)",
             "latitude": "50.9384578",
             "longitude": " 6.9590074 ",
-            "preis": " <br /> 20 Euro / ermäßigt 10 Euro, der Eintrittspreis enthält Getränke und Mittagessen"
+            "preis": "  20 Euro / ermäßigt 10 Euro, der Eintrittspreis enthält Getränke und Mittagessen"
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33539/index.html",
@@ -1299,7 +1299,7 @@
             "oepnv": "",
             "latitude": "50.933802",
             "longitude": "7.044150",
-            "preis": " <br /> Die Teilnahme ist kostenfrei.<br /> "
+            "preis": "  Die Teilnahme ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34018/index.html",
@@ -1319,7 +1319,7 @@
             "oepnv": null,
             "latitude": "50.8552143",
             "longitude": "7.0990468",
-            "preis": " <br /> Die Veranstaltung ist kostenfrei.<br /> "
+            "preis": "  Die Veranstaltung ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33798/index.html",
@@ -1336,10 +1336,10 @@
             "stadtteil": "Porz",
             "strasse": "Friedrich-Ebert-Ufer",
             "hausnummer": "64-70",
-            "oepnv": "Stadtbahn-Linie 7 (Haltestelle Porz-Markt)<br /> Bus-Linien 152, 154, 160, 161 und 162 (Haltestelle Porz-Markt)",
+            "oepnv": "Stadtbahn-Linie 7 (Haltestelle Porz-Markt) Bus-Linien 152, 154, 160, 161 und 162 (Haltestelle Porz-Markt)",
             "latitude": "50.884947346",
             "longitude": "7.05444525868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34036/index.html",
@@ -1356,10 +1356,10 @@
             "stadtteil": "Mülheim",
             "strasse": "Wiener Platz",
             "hausnummer": "2a",
-            "oepnv": "Stadtbahn-Linien 4, 13 und 18 (Haltestelle Mülheim Wiener Platz)<br /> Bus-Linien 151, 152, 153, 159 und 190 (Haltestelle Mülheim Wiener Platz)",
+            "oepnv": "Stadtbahn-Linien 4, 13 und 18 (Haltestelle Mülheim Wiener Platz) Bus-Linien 151, 152, 153, 159 und 190 (Haltestelle Mülheim Wiener Platz)",
             "latitude": "50.96103",
             "longitude": "7.004799999999932",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33791/index.html",
@@ -1376,10 +1376,10 @@
             "stadtteil": "Mülheim",
             "strasse": "Wiener Platz",
             "hausnummer": "2a",
-            "oepnv": "Stadtbahn-Linien 4, 13 und 18 (Haltestelle Mülheim Wiener Platz)<br /> Bus-Linien 151, 152, 153, 159 und 190 (Haltestelle Mülheim Wiener Platz)",
+            "oepnv": "Stadtbahn-Linien 4, 13 und 18 (Haltestelle Mülheim Wiener Platz) Bus-Linien 151, 152, 153, 159 und 190 (Haltestelle Mülheim Wiener Platz)",
             "latitude": "50.96103",
             "longitude": "7.004799999999932",
-            "preis": " <br /> Der Eintritt ist frei.<br /> "
+            "preis": "  Der Eintritt ist frei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32493/index.html",
@@ -1388,7 +1388,7 @@
             "title": "DESiMO – Manipulation",
             "description": "Je cleverer Ihr Hirn ist, desto wirkungsvoller lässt es sich verblüffen.",
             "teaserbild": "/mediaasset/bilder/veranstaltungen/Buergerzentrum-chorweiler/desimo_-_cr__olli_haas.jpg",
-            "uhrzeit": "Einlass: 19 Uhr<br /> Beginn: 20 Uhr",
+            "uhrzeit": "Einlass: 19 Uhr Beginn: 20 Uhr",
             "veranstaltungsort": "Bürgerzentrum Chorweiler",
             "plz": "50765",
             "ort": "Köln",
@@ -1396,10 +1396,10 @@
             "stadtteil": "Chorweiler",
             "strasse": "Pariser Platz",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler)<br /> S-Bahn Linie S 11 (Haltestelle Chorweiler)",
+            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler) S-Bahn Linie S 11 (Haltestelle Chorweiler)",
             "latitude": "51.0223178043",
             "longitude": "6.89936443123",
-            "preis": " <br /> 24 Euro im Vorverkauf<br /> 25 Euro an der Abendkasse<br /> "
+            "preis": "  24 Euro im Vorverkauf 25 Euro an der Abendkasse "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33990/index.html",
@@ -1408,7 +1408,7 @@
             "title": "Weltkindertag – Mottowoche",
             "description": "Wir werden gemeinsam kochen, basteln und haben weitere tolle Angebote ",
             "teaserbild": null,
-            "uhrzeit": "Montag, Dienstag, Donnerstag und Freitag, 17 bis 20 Uhr<br /> Mittwoch, 16 bis 18 Uhr<br /> ",
+            "uhrzeit": "Montag, Dienstag, Donnerstag und Freitag, 17 bis 20 Uhr Mittwoch, 16 bis 18 Uhr ",
             "veranstaltungsort": "Kinder- und Jugendeinrichtung Offene Tür Sankt John",
             "plz": "51061",
             "ort": "Köln",
@@ -1419,7 +1419,7 @@
             "oepnv": "",
             "latitude": "50.9861156",
             "longitude": "6.9967013",
-            "preis": " <br /> Die Teilnahme ist kostenfrei.<br /> "
+            "preis": "  Die Teilnahme ist kostenfrei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34100/index.html",
@@ -1436,10 +1436,10 @@
             "stadtteil": "Bocklemünd/Mengenich",
             "strasse": "Görlinger-Zentrum",
             "hausnummer": "13-15",
-            "oepnv": "Stadtbahn-Linie 3 (Haltestelle Ollenhauerring)<br /> Bus-Linie 127 (Haltestelle Börnestraße)",
+            "oepnv": "Stadtbahn-Linie 3 (Haltestelle Ollenhauerring) Bus-Linie 127 (Haltestelle Börnestraße)",
             "latitude": "50.97997489999999",
             "longitude": "6.866252400000008",
-            "preis": " <br /> Der Eintritt ist frei.<br /> "
+            "preis": "  Der Eintritt ist frei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33686/index.html",
@@ -1456,10 +1456,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/32298/index.html",
@@ -1476,10 +1476,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33782/index.html",
@@ -1496,10 +1496,10 @@
             "stadtteil": "Chorweiler",
             "strasse": "Pariser Platz",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler)<br /> Bus-Linien 120, 121, 122, 125 und 126 (Haltestelle Chorweiler)<br /> S-Bahn-Linie S 11 (Haltestelle Chorweiler)<br /> ",
+            "oepnv": "Stadtbahn-Linie 15 (Haltestelle Chorweiler) Bus-Linien 120, 121, 122, 125 und 126 (Haltestelle Chorweiler) S-Bahn-Linie S 11 (Haltestelle Chorweiler) ",
             "latitude": "51.0223178043",
             "longitude": "6.89936443123",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33283/index.html",
@@ -1516,10 +1516,10 @@
             "stadtteil": "Kalk",
             "strasse": "Kalker Hauptstraße",
             "hausnummer": "247-273",
-            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Kalk-Kapelle)<br /> Bus-Linie 159 (Haltestelle Kalk-Kapelle)<br /> S-Bahn-Linie S 12 und Regionalbahn-Linie RB 25 (Haltestelle Kalk-Trimbornstraße)",
+            "oepnv": "Stadtbahn-Linien 1 und 9 (Haltestelle Kalk-Kapelle) Bus-Linie 159 (Haltestelle Kalk-Kapelle) S-Bahn-Linie S 12 und Regionalbahn-Linie RB 25 (Haltestelle Kalk-Trimbornstraße)",
             "latitude": "50.9391855933",
             "longitude": "7.00873360836",
-            "preis": " <br /> Kostenfrei<br /> "
+            "preis": "  Kostenfrei "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33787/index.html",
@@ -1536,10 +1536,10 @@
             "stadtteil": "Altstadt/Süd",
             "strasse": "Josef-Haubrich-Hof",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt)<br /> Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
+            "oepnv": "Stadtbahn-Linien 1, 3, 4, 7, 9, 16, und 18 und (Haltestelle Neumarkt) Bus-Linien 136 und 146 (Haltestelle Neumarkt)",
             "latitude": "50.9342440009",
             "longitude": "6.94925103868",
-            "preis": " <br /> Die Teilnahme ist kostenlos.<br /> "
+            "preis": "  Die Teilnahme ist kostenlos. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34047/index.html",
@@ -1556,10 +1556,10 @@
             "stadtteil": "Altstadt/Nord",
             "strasse": "Bischofsgartenstraße",
             "hausnummer": "1",
-            "oepnv": "Stadtbahn-Linien 5, 16 und 18 (Haltestelle Dom/Hauptbahnhof)<br /> Buslinien 132 (Haltestelle Dom/Hauptbahnhof)",
+            "oepnv": "Stadtbahn-Linien 5, 16 und 18 (Haltestelle Dom/Hauptbahnhof) Buslinien 132 (Haltestelle Dom/Hauptbahnhof)",
             "latitude": "50.9405519",
             "longitude": " 6.961473999999953 ",
-            "preis": " <br /> Ticket je Veranstaltung: 7 Euro, ermäßigt 5 Euro<br /> Ticket je Sonderveranstaltung: <br /> 8 Euro, ermäßigt 6 Euro, Schüler*innen 3 Euro, Lehrer*innen frei<br /> Festivalpass: 40 Euro, ermäßigt 30 Euro<br /> <br /> Für Geflüchtete ist der Eintri"
+            "preis": "  Ticket je Veranstaltung: 7 Euro, ermäßigt 5 Euro Ticket je Sonderveranstaltung:  8 Euro, ermäßigt 6 Euro, Schüler*innen 3 Euro, Lehrer*innen frei Festivalpass: 40 Euro, ermäßigt 30 Euro  Für Geflüchtete ist der Eintri"
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33897/index.html",
@@ -1568,7 +1568,7 @@
             "title": "Hypocrites – Solo für einen Schauspieler und einen Chor über Schein und Sein",
             "description": "",
             "teaserbild": "/mediaasset/bilder/kunst-kultur/hypocrites_a.tonal.theater_theater_an_der_ruhr__c__jürgen_brinkmann.jpg",
-            "uhrzeit": "Donnerstag bis Samstag: 20 Uhr<br /> Sonntag: 18 Uhr",
+            "uhrzeit": "Donnerstag bis Samstag: 20 Uhr Sonntag: 18 Uhr",
             "veranstaltungsort": "Alte Feuerwache",
             "plz": "50670",
             "ort": "Köln",
@@ -1576,10 +1576,10 @@
             "stadtteil": "Neustadt/Nord",
             "strasse": "Melchiorstraße",
             "hausnummer": "3",
-            "oepnv": "Stadtbahn-Linien 5, 12, 15, 16, 18 (Haltestelle Ebertplatz)<br /> Bus-Linien 140 und 148 (Haltestelle Krefelder Wall)<br /> S-Bahn S 6, S 11, S 12, S 13 (Haltestelle Hansaring) ",
+            "oepnv": "Stadtbahn-Linien 5, 12, 15, 16, 18 (Haltestelle Ebertplatz) Bus-Linien 140 und 148 (Haltestelle Krefelder Wall) S-Bahn S 6, S 11, S 12, S 13 (Haltestelle Hansaring) ",
             "latitude": "50.9530651367",
             "longitude": "6.95480011532",
-            "preis": " <br /> 17 Euro, ermäßigt 11 Euro<br /> "
+            "preis": "  17 Euro, ermäßigt 11 Euro "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33976/index.html",
@@ -1588,7 +1588,7 @@
             "title": " 35 Jahre Kunstverein 68elf",
             "description": "Der Kunstverein 68elf feiert sein 35-jähriges Jubiläum",
             "teaserbild": null,
-            "uhrzeit": "Freitag bis Samstag: 17 bis 20 Uhr<br /> Sonntag: 15 bis 18 Uhr ",
+            "uhrzeit": "Freitag bis Samstag: 17 bis 20 Uhr Sonntag: 15 bis 18 Uhr ",
             "veranstaltungsort": "Kunsthalle Lindenthal",
             "plz": "50931",
             "ort": "Köln",
@@ -1596,10 +1596,10 @@
             "stadtteil": "Braunsfeld",
             "strasse": "Aachener Straße",
             "hausnummer": "220",
-            "oepnv": "Stadtbahn-Linien 1, 7 und 13 (Haltestelle Aachener Straße/Gürtel)<br /> Bus-Linie 137 (Haltestelle Aachener Straße/Gürtel)",
+            "oepnv": "Stadtbahn-Linien 1, 7 und 13 (Haltestelle Aachener Straße/Gürtel) Bus-Linie 137 (Haltestelle Aachener Straße/Gürtel)",
             "latitude": "50.9371067",
             "longitude": "6.911972699999978",
-            "preis": " <br /> Der Eintritt ist frei.<br /> "
+            "preis": "  Der Eintritt ist frei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33349/index.html",
@@ -1616,10 +1616,10 @@
             "stadtteil": "Riehl",
             "strasse": "Alter Stammheimer Weg (Haupteingang)",
             "hausnummer": "",
-            "oepnv": "Stadtbahn-Linie 16 (Haltestelle Kinderkrankenhaus)<br /> Stadtbahn-Linie 18 (Haltestelle Zoo/Flora)<br /> Bus-Linie 140 (Haltestelle Zoo/Flora)",
+            "oepnv": "Stadtbahn-Linie 16 (Haltestelle Kinderkrankenhaus) Stadtbahn-Linie 18 (Haltestelle Zoo/Flora) Bus-Linie 140 (Haltestelle Zoo/Flora)",
             "latitude": "50.95911492019291",
             "longitude": " 6.972422035195905 ",
-            "preis": " <br /> Der Eintritt ist kostenlos<br /> "
+            "preis": "  Der Eintritt ist kostenlos "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34013/index.html",
@@ -1659,7 +1659,7 @@
             "oepnv": "",
             "latitude": "50.9405519",
             "longitude": "6.961473999999953",
-            "preis": " <br /> Der Eintritt ist frei. "
+            "preis": "  Der Eintritt ist frei. "
         },
         {
             "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/34023/index.html",
@@ -1691,12 +1691,12 @@
             "uhrzeit": "Das Foyer ist Montag bis Freitag, 6 bis 21 Uhr offen.",
             "veranstaltungsort": "Bezirksrathaus Mülheim",
             "plz": "51065",
-            "ort": "Köln",
+            "ort": " ",
             "stadtbezirk": "Mülheim",
             "stadtteil": "Mülheim",
             "strasse": "Wiener Platz",
             "hausnummer": "2a",
-            "oepnv": "Stadtbahn-Linien 4, 13 und 18 (Haltestelle Mülheim/Wiener Platz)<br /> Bus-Linien 152, 153, 159, 250, 260 und 434 (Haltestelle Mülheim/Wiener Platz)",
+            "oepnv": "Stadtbahn-Linien 4, 13 und 18 (Haltestelle Mülheim/Wiener Platz) Bus-Linien 152, 153, 159, 250, 260 und 434 (Haltestelle Mülheim/Wiener Platz)",
             "latitude": "50.9611449139",
             "longitude": "7.00440449787",
             "preis": "Der Eintritt ist kostenlos."

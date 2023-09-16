@@ -2,7 +2,7 @@ import requests
 
 url = "https://www.stadt-koeln.de/externe-dienste/open-data/events-od.php"
 
-L
+
 response = requests.get(url)
 
 

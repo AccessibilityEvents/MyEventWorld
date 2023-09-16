@@ -1,19 +1,19 @@
 <script>
-	//import { onMount, reactive } from "svelte";
+	import { onMount, reactive } from 'svelte';
 	let ort = '';
 	let distanz = 0;
-	// let filter = reactive({});
+	let filter = reactive({});
 
 	const updateFilter = (event) => {
 		filter[event.target.name] = event.target.checked;
 	};
 
-	// onMount(async () => {
-	//     map = new google.maps.Map(document.getElementById("map"), {
-	//       center: { lat: -34.397, lng: 150.644 },
-	//       zoom: 8,
-	//     });
-	//  });
+	onMount(async () => {
+		map = new google.maps.Map(document.getElementById('map'), {
+			center: { lat: -34.397, lng: 150.644 },
+			zoom: 8
+		});
+	});
 </script>
 
 <main class="container">

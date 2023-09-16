@@ -1,5 +1,9 @@
 <script lang="ts">
-	import EventCardModal from './EventCardModal.svelte';
+	// import EventCardModal from './EventCardModal.svelte';
+	import EuroIcon from '$lib/icons/euro.svelte';
+	import MapPinIcon from '$lib/icons/map-pin.svelte';
+	import CalendarDaysIcon from '$lib/icons/calendar-days.svelte';
+	import GlobeIcon from '$lib/icons/globe.svelte';
 
 	export let titel: string;
 	export let beschreibung: string;
@@ -17,10 +21,13 @@
 	<!-- <EventCardModal title={titel} description={beschreibung} link_to_event={link} time={start} /> -->
 
 	<footer>
-		<p>
-			{ort} • {start} • {preis} <br />
+		<EuroIcon />
+		{preis} <br />
+		<MapPinIcon />
+		{ort} <br />
+		<CalendarDaysIcon />
+		{start} <br />
 
-			<a href={link}>{link}</a>
-		</p>
+		<GlobeIcon /> <a href={link}>{link}</a>
 	</footer>
 </article>

@@ -2,7 +2,7 @@ import json
 
 
 def read_data():
-    data_koeln = r"C:\Users\acc2\Documents\GitHub\MyEventWorld\WebScrapping\Kölnopendata.json"
+    data_koeln = r"WebScrapping\Kölnopendata.json"
 
     with open(data_koeln, "r", encoding="utf-8") as data_r:
         read_data = data_r.read()
@@ -15,7 +15,6 @@ def read_data():
             count += 1
     except:
         pass
-
     titles = []
     times_start = []
     times_end = []
@@ -23,58 +22,31 @@ def read_data():
     links = []
     costs = []
     addresses = []
-    times = []
+    num = 0
 
-    for num in range(count):
-        title = data['items'][num]['title']
-        time_start = data['items'][num]['beginndatum']
-        time_end = data['items'][num]["endedatum"]
-        description = data['items'][num]["description"]
-        link = data['items'][num]['link']
-        cost = data['items'][num]['preis']
-        plz = data['items'][num]['plz']
-        ort = data['items'][num]['ort']
-        street = data['items'][num]['strasse']
-        number = data['items'][num]['hausnummer']
-        time = data['items'][num]['uhrzeit']
-
-        time_words = []
-        new_times = []
+    while True:
         try:
-            for word in time.split(" "):
-                time_words.append(word)
+            title = data['items'][num]['title']
+            time_start = data['items'][num]['beginndatum']
+            time_end = data['items'][num]["endedatum"]
+            description = data['items'][num]["description"]
+            link = data['items'][num]['link']
+            cost = data['items'][num]['preis']
+            plz = data['items'][num]['plz']
+            ort = data['items'][num]['ort']
+            street = data['items'][num]['strasse']
+            number = data['items'][num]['hausnummer']
+
+            descriptions.append(description)
+            costs.append(cost)
+            links.append(link)
+            addresses.append(f"{street} {number}, {plz} {ort}")
+            times_start.append(time_start)
+            times_end.append(time_end)
+            titles.append(title)
+            num += 1
         except:
-            continue
-        try:
-            for word in time_words:
-                try:
-                    if not ":" in word:
-                        test = int(word)
-                        new_times.append(word)
-                    else:
-                        try:
-                            new_word, new_word2 = word.split(":")
-                            test = int(new_word)
-                            test = int(new_word2)
-                            new_times.append(word)
-                        except:
-                            continue
-
-                except:
-                    continue
-        except:
-            continue
-
-        times.append(time)
-        descriptions.append(description)
-        costs.append(cost)
-        links.append(link)
-        addresses.append(f"{street} {number}, {plz} {ort}")
-        times_start.append(time_start)
-        times_end.append(time_end)
-        titles.append(title)
-
-        return [times_start, times_end, titles, descriptions, costs, links, addresses]
+            return [times_start, times_end, titles, descriptions, costs, links, addresses]
 
 
 ## searching function

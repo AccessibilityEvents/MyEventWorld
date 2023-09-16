@@ -1,3 +1,5 @@
+from os import path
+
 from flask import (
     render_template,
     request,
@@ -7,12 +9,19 @@ from flask import (
     send_from_directory,
 )
 
-app = Flask(__name__, template_folder="frontend/dist", static_url_path="/", static_folder='frontend/dist/')
+app = Flask(__name__)
 
 
-@app.route('/')
-def index():
-    return render_template("index.html")
+# Path for our main Svelte page
+@app.route("/")
+def base():
+    return send_from_directory("frontend/dist", "index.html")
+
+
+# Path for all the static files (compiled JS/CSS, etc.)
+@app.route("/<path:path>")
+def home(path):
+    return send_from_directory("frontend/dist", path)
 
 
 if __name__ == "__main__":

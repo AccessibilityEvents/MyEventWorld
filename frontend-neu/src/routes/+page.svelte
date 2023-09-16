@@ -23,10 +23,10 @@
 		loading = true;
 
 		let search_route: string;
-		if (search_text === "") {
-			search_route = "all";
+		if (search_text === '') {
+			search_route = 'all';
 		} else {
-			search_route = `search?therm=${search_text}`
+			search_route = `search?therm=${search_text}`;
 		}
 
 		const response = await fetch(`${BACKEND_SERVER}/api/${search_route}`);
@@ -41,15 +41,17 @@
 		loading = false;
 	}
 
-	onMount(async () => { search()});
+	onMount(async () => {
+		search();
+	});
 </script>
 
 <main class="container">
 	<h1>MyEventWorld</h1>
 
 	<form>
-		<input type="search" bind:value={search_text} placeholder="Suche" autofocus/>
-<!--
+		<input type="search" bind:value={search_text} placeholder="Suche" autofocus />
+		<!--
 		<a href="/settings">
 			<button style="width: 10%;" class="outline">
 				<SettingsIcon />

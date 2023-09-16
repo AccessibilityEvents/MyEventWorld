@@ -44,7 +44,7 @@
 	<h1>MyEventWorld</h1>
 
 	<form>
-		<input type="search" bind:value={search_text} placeholder="Suche" required/>
+		<input type="search" bind:value={search_text} placeholder="Suche" autofocus required/>
 		<a href="/sidebar">
 			<button style="width: 10%;" class="outline">
 				<SettingsIcon />

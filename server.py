@@ -27,6 +27,7 @@ def api_all():
     times_end = []
     descriptions = []
     links = []
+    times = []
     costs = []
     addresses = []
     for count in range(len(data)):
@@ -45,12 +46,16 @@ def api_all():
         elif count == 6:
             addresses = data[6]
 
-    res = []
 
+    res = []
+    print(times)
     for num in range(len(titles)):
-        res.append(
-            {"Titel": titles[num], "Start": times_start[num], "Ende": times_end[num], "Beschreibung": descriptions[num],
-             "Preis": costs[num], "Link": links[num], "Ort": addresses[num]})
+        try:
+            res.append(
+                {"Titel": titles[num], "Start": times_start[num], "Ende": times_end[num], "Beschreibung": descriptions[num],
+                 "Preis": costs[num], "Link": links[num], "Ort": addresses[num]})
+        except:
+            continue
 
     return jsonify(res)
 

@@ -52,7 +52,6 @@ def api_all():
             {"Titel": titles[num], "Start": times_start[num], "Ende": times_end[num], "Beschreibung": descriptions[num],
              "Preis": costs[num], "Link": links[num], "Ort": addresses[num]})
 
-    print("Starting Search")
     return jsonify(res)
 
 @app.route("/api/search")

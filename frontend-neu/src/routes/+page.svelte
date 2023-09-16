@@ -15,10 +15,12 @@
 		loading = true;
 
 		let search_route: string;
-		if (search_text === '') {
+		if (search_text === '' && category === "") {
 			search_route = 'all';
+			console.log("Search All")
 		} else {
 			search_route = `search?therm=${search_text}&category=${category}`;
+			console.log("Search specific")
 		}
 
 		const response = await fetch(`${BACKEND_SERVER}/api/${search_route}`);

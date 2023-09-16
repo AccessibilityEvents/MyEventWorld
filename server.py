@@ -1,4 +1,5 @@
 from os import path
+import mimetypes
 
 from flask import (
     render_template,
@@ -11,17 +12,17 @@ from flask import (
 
 app = Flask(__name__)
 
-
-# Path for our main Svelte page
+#For tests
 @app.route("/")
-def base():
-    return send_from_directory("frontend/dist", "index.html")
+def main():
+    return redirect("/api/search", 302)
 
-
-# Path for all the static files (compiled JS/CSS, etc.)
-@app.route("/<path:path>")
-def home(path):
-    return send_from_directory("frontend/dist", path)
+@app.route("/api/search")
+def api():
+    therm = request.args.get("therm")
+    print("Starting Search")
+    print(therm)
+    return f"{therm} is the therm"
 
 
 if __name__ == "__main__":

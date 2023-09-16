@@ -1,8 +1,8 @@
 <script>
-  //import { onMount, reactive } from "svelte";
+  import { onMount, reactive } from "svelte";
   let ort = "";
   let distanz = 0;
-  // let filter = reactive({});
+  let filter = reactive({});
 
   const updateFilter = (event) => {
     filter[event.target.name] = event.target.checked;

@@ -1,7 +1,7 @@
 import json
 
 def read_data():
-	data_koeln = "WebScrapping/Kölnopendata.json"
+	data_koeln = r"C:\Users\acc2\Documents\GitHub\MyEventWorld\WebScrapping\Kölnopendata.json"
 
 	with open(data_koeln, "r", encoding="utf-8")as data_r:
 		read_data = data_r.read()
@@ -84,10 +84,14 @@ def search_element(arr, n, element):
 	## iterating through the array
 	for i in range(n):
 
-		## checking the current element with required element
-		if arr[i] == element:
-			## returning True on match
-			return True
+		event=arr[i]
+		for j in range (len(event)):
+			
+			
+			## checking the current element with required element
+			if str( event[j]).find(element)  :
+				## returning True on match
+				return True
 
 	## element is not found hence the execution comes here
 	return False
@@ -95,14 +99,12 @@ def search_element(arr, n, element):
 
 if __name__ == '__main__':
 	## initializing the array, length, and element to be searched
-	arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-	n = 10
-	element_to_be_searched = 10
+	arr = read_data()
+	n = len(arr)
+	element_to_be_searched = "Zauberwürfel"
 	# element_to_be_searched = 11
 
 	if search_element(arr, n, element_to_be_searched):
 		print(element_to_be_searched, "is found")
 	else:
 		print(element_to_be_searched, "is not found")
-
-	read_data()

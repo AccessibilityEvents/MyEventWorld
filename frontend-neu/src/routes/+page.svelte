@@ -49,7 +49,12 @@
 				<SettingsIcon />
 			</button>
 		</a>
-		<button type="submit" on:click={search}>Suchen</button>
+
+		{#if !loading}
+			<button type="submit" on:click={search}>Suchen</button>
+		{:else}
+			<button type="submit" disabled>Suchen</button>
+		{/if}
 	</form>
 
 	{#if loading}

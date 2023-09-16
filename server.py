@@ -1,3 +1,5 @@
+from os import path
+
 from flask import (
     render_template,
     request,
@@ -7,7 +9,7 @@ from flask import (
     send_from_directory,
 )
 
-app = Flask(__name__, template_folder="frontend/dist", static_url_path="/", static_folder='frontend/dist/')
+app = Flask(__name__, template_folder=path.join("frontend", "dist"), static_url_path="/", static_folder=path.join("frontend", "dist"))
 
 
 @app.route('/')

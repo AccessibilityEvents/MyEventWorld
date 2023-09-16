@@ -41,7 +41,7 @@
 		loading = false;
 	}
 
-	// onMount(async () => { search()});
+	onMount(async () => { search()});
 </script>
 
 <main class="container">

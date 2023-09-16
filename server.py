@@ -17,6 +17,7 @@ app = Flask(__name__)
 def main():
     return redirect("/api/search", 302)
 
+
 @app.route("/api/search")
 def api():
     therm = request.args.get("therm")

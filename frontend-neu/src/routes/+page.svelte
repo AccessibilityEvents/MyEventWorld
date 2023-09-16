@@ -1,6 +1,7 @@
 <script lang="ts">
-	import {onMount} from 'svelte';
+	import { onMount } from 'svelte';
 	import SettingsIcon from '$lib/settings.svelte';
+	import EventCard from './EventCard.svelte';
 
 	interface Event {
 		Titel: string;
@@ -19,7 +20,7 @@
 
 	async function search() {
 		if (search_text === '') {
-			return
+			return;
 		}
 		const response = await fetch(`${BACKEND_SERVER}/api/search?therm=${search_text}`);
 		const data = await response.json();
@@ -47,18 +48,13 @@
 	</form>
 
 	{#each search_results as result}
-		<article>
-			<h2><a href="#">{result.Titel}</a></h2>
-
-			<p>{result.Beschreibung}</p>
-
-			<footer>
-				<p>
-					{result.Ort} • {result.Start} • {result.Preis} <br />
-
-					<a href={result.Link}>{result.Link}</a>
-				</p>
-			</footer>
-		</article>
+		<EventCard
+			titel={result.Titel}
+			beschreibung={result.Beschreibung}
+			ort={result.Ort}
+			start={result.Start}
+			preis={result.Preis}
+			link={result.Link}
+		/>
 	{/each}
 </main>

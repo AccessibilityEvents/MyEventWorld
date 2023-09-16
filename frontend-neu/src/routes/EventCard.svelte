@@ -1,23 +1,26 @@
 <script lang="ts">
-    export let titel: string;
-    export let beschreibung: string;
-    export let ort: string;
-    export let start: string;
-    export let preis: string;
-    export let link: string;
+	import EventCardModal from './EventCardModal.svelte';
 
+	export let titel: string;
+	export let beschreibung: string;
+	export let ort: string;
+	export let start: string;
+	export let preis: string;
+	export let link: string;
 </script>
 
 <article>
-    <h2><a href="#">{titel}</a></h2>
+	<h2>{titel}</h2>
 
-    <p>{beschreibung}</p>
+	<p>{beschreibung}</p>
 
-    <footer>
-        <p>
-            {ort} • {start} • {preis} <br />
+	<!-- <EventCardModal title={titel} description={beschreibung} link_to_event={link} time={start} /> -->
 
-            <a href={link}>{link}</a>
-        </p>
-    </footer>
+	<footer>
+		<p>
+			{ort} • {start} • {preis} <br />
+
+			<a href={link}>{link}</a>
+		</p>
+	</footer>
 </article>

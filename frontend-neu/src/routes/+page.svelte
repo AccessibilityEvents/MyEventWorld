@@ -18,8 +18,15 @@
 	let search_text = '';
 	let search_results: Event[] = [];
 	let loading: boolean = false;
+	let input_error: boolean = false;
 
 	async function search() {
+		if (search_text === "") {
+			input_error = true;
+			return
+		}
+
+		input_error = false;
 		loading = true;
 
 		const response = await fetch(`${BACKEND_SERVER}/api/search?therm=${search_text}`);
@@ -44,15 +51,20 @@
 	<h1>MyEventWorld</h1>
 
 	<form>
-		<input type="search" bind:value={search_text} placeholder="Suche" autofocus required/>
-		<a href="/sidebar">
+		{#if input_error}
+			<input type="search" aria-invalid="true" bind:value={search_text} placeholder="Suche" autofocus/>
+		{:else}
+			<input type="search" bind:value={search_text} placeholder="Suche" autofocus/>
+		{/if}
+
+		<a href="/settings">
 			<button style="width: 10%;" class="outline">
 				<SettingsIcon />
 			</button>
 		</a>
 
 		{#if !loading}
-			<button type="submit" on:click={search}>Suchen</button>
+			<button type="submit" on:click|preventDefault={search}>Suchen</button>
 		{:else}
 			<button type="submit" disabled>Suchen</button>
 		{/if}

@@ -12,18 +12,16 @@ if response.status_code == 200:
 
 
     for item in data["items"]:
-        beginndatum = item["beginndatum"]
-        endedatum = item["endedatum"]
+        startdate = item["beginndatum"]
+        enddate = item["endedatum"]
         title = item["title"]
-        preis = item["preis"]
-        if preis:
-            preis_cleaned = preis.replace('<br>', ' ').replace('<br />', ' ').strip()
-        else:
-            print("Preis nicht angegeben")
-        print("Beginndatum:", beginndatum)
-        print("Endedatum:", endedatum)
+
+
+        print("Beginndatum:", startdate)
+        print("Endedatum:", enddate)
         print("Title:", title)
-        print("Preis:", preis_cleaned)
+
+        print("Ort:", 'köln')
         print("-----")
 else:
-    print("Keine Daten")
+    print("Keine Daten ")

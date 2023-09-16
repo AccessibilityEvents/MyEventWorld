@@ -25,6 +25,5 @@ def api():
     print(therm)
     return f"{therm} is the therm"
 
-
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")

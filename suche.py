@@ -15,7 +15,6 @@ def read_data():
             count += 1
     except:
         pass
-
     titles = []
     times_start = []
     times_end = []
@@ -23,29 +22,31 @@ def read_data():
     links = []
     costs = []
     addresses = []
+    num = 0
 
-    for num in range(count):
-        title = data['items'][num]['title']
-        time_start = data['items'][num]['beginndatum']
-        time_end = data['items'][num]["endedatum"]
-        description = data['items'][num]["description"]
-        link = data['items'][num]['link']
-        cost = data['items'][num]['preis']
-        plz = data['items'][num]['plz']
-        ort = data['items'][num]['ort']
-        street = data['items'][num]['strasse']
-        number = data['items'][num]['hausnummer']
+    while True:
+        try:
+            title = data['items'][num]['title']
+            time_start = data['items'][num]['beginndatum']
+            time_end = data['items'][num]["endedatum"]
+            description = data['items'][num]["description"]
+            link = data['items'][num]['link']
+            cost = data['items'][num]['preis']
+            plz = data['items'][num]['plz']
+            ort = data['items'][num]['ort']
+            street = data['items'][num]['strasse']
+            number = data['items'][num]['hausnummer']
 
-
-        descriptions.append(description)
-        costs.append(cost)
-        links.append(link)
-        addresses.append(f"{street} {number}, {plz} {ort}")
-        times_start.append(time_start)
-        times_end.append(time_end)
-        titles.append(title)
-
-        return [times_start, times_end, titles, descriptions, costs, links, addresses]
+            descriptions.append(description)
+            costs.append(cost)
+            links.append(link)
+            addresses.append(f"{street} {number}, {plz} {ort}")
+            times_start.append(time_start)
+            times_end.append(time_end)
+            titles.append(title)
+            num += 1
+        except:
+            return [times_start, times_end, titles, descriptions, costs, links, addresses]
 
 
 ## searching function

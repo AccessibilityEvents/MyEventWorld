@@ -32,18 +32,25 @@ def api_all():
     for count in range(len(data)):
         if count == 2:
             titles = data[2]
+            print(titles)
         elif count == 1:
             times_end = data[1]
+            print(times_end)
         elif count == 0:
             times_start = data[0]
+            print(times_start)
         elif count == 3:
             descriptions = data[3]
+            print(descriptions)
         elif count == 4:
             costs = data[4]
+            print(costs)
         elif count == 5:
             links = data[5]
+            print(links)
         elif count == 6:
             addresses = data[6]
+            print(addresses)
 
 
     res = []

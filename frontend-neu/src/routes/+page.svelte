@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import SettingsIcon from '$lib/settings.svelte';
+	import SettingsIcon from '$lib/icons/settings.svelte';
 	import EventCard from './EventCard.svelte';
 
 	interface Event {

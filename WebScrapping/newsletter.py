@@ -1,22 +1,29 @@
-import re
+import requests
 
-newsletter_path = r"C:\Users\Oguz\PycharmProjects\MyEventWorld\Newsletter.html"
+url = "https://www.stadt-koeln.de/externe-dienste/open-data/events-od.php"
 
-try:
-    with open(newsletter_path, 'r', encoding='utf-8') as file:
-        newsletter_content = file.read()
+# Send an HTTP GET request to the URL
+response = requests.get(url)
 
+# Check if the request was successful
+if response.status_code == 200:
+    # Parse the JSON data
+    data = response.json()
 
-    date_pattern = r'Date:\s*(\d{1,2}/\d{1,2}/\d{4})'
-    location_pattern = r'Location:\s*([\w\s]+)'
-
-    dates = re.findall(date_pattern, newsletter_content)
-    locations = re.findall(location_pattern, newsletter_content)
-
-    for date, location in zip(dates, locations):
-        print(f"Date: {date}, Location: {location}")
-
-except FileNotFoundError:
-    print(f"The file '{newsletter_path}' does not exist.")
-except Exception as e:
-    print(f"An error occurred: {str(e)}")
+    # Extract and print the desired information for each item
+    for item in data["items"]:
+        beginndatum = item["beginndatum"]
+        endedatum = item["endedatum"]
+        title = item["title"]
+        preis = item["preis"]
+        if preis:
+            preis_cleaned = preis.replace('<br>', ' ').replace('<br />', ' ').strip()
+        else:
+            print("Preis nicht angegeben")
+        print("Beginndatum:", beginndatum)
+        print("Endedatum:", endedatum)
+        print("Title:", title)
+        print("Preis:", preis_cleaned)
+        print("-----")
+else:
+    print("Failed to retrieve data from the URL.")

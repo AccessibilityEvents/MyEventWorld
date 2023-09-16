@@ -7,7 +7,7 @@ response = requests.get(url)
 
 
 if response.status_code == 200:
-    # Parse the JSON data
+
     data = response.json()
 
 
@@ -26,4 +26,4 @@ if response.status_code == 200:
         print("Preis:", preis_cleaned)
         print("-----")
 else:
-    print("Failed to retrieve data from the URL.")
+    print("Keine Daten")

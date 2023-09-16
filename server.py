@@ -27,7 +27,6 @@ def api_all():
     times_end = []
     descriptions = []
     links = []
-    times = []
     costs = []
     addresses = []
     for count in range(len(data)):
@@ -48,7 +47,6 @@ def api_all():
 
 
     res = []
-    print(times)
     for num in range(len(titles)):
         try:
             res.append(

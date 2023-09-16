@@ -2,7 +2,7 @@ import json
 
 
 def read_data():
-    data_koeln = r"C:\Users\acc2\Documents\GitHub\MyEventWorld\WebScrapping\Kölnopendata.json"
+    data_koeln = r"WebScrapping\Kölnopendata.json"
 
     with open(data_koeln, "r", encoding="utf-8") as data_r:
         read_data = data_r.read()
@@ -23,7 +23,6 @@ def read_data():
     links = []
     costs = []
     addresses = []
-    times = []
 
     for num in range(count):
         title = data['items'][num]['title']
@@ -36,36 +35,8 @@ def read_data():
         ort = data['items'][num]['ort']
         street = data['items'][num]['strasse']
         number = data['items'][num]['hausnummer']
-        time = data['items'][num]['uhrzeit']
 
-        time_words = []
-        new_times = []
-        try:
-            for word in time.split(" "):
-                time_words.append(word)
-        except:
-            continue
-        try:
-            for word in time_words:
-                try:
-                    if not ":" in word:
-                        test = int(word)
-                        new_times.append(word)
-                    else:
-                        try:
-                            new_word, new_word2 = word.split(":")
-                            test = int(new_word)
-                            test = int(new_word2)
-                            new_times.append(word)
-                        except:
-                            continue
 
-                except:
-                    continue
-        except:
-            continue
-
-        times.append(time)
         descriptions.append(description)
         costs.append(cost)
         links.append(link)

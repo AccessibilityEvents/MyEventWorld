@@ -17,20 +17,25 @@
 
 	let search_text = '';
 	let search_results: Event[] = [];
+	let loading: boolean = false;
 
 	async function search() {
 		if (search_text === '') {
 			return;
 		}
+		loading = true;
 		const response = await fetch(`${BACKEND_SERVER}/api/search?therm=${search_text}`);
 		const data = await response.json();
 		search_results = data;
+		loading = false;
 	}
 
 	onMount(async () => {
+		loading = true;
 		const response = await fetch(`${BACKEND_SERVER}/api/all`);
 		const data = await response.json();
 		search_results = data;
+		loading = false;
 	});
 </script>
 
@@ -47,14 +52,18 @@
 		<button type="submit" on:click={search}>Suchen</button>
 	</form>
 
-	{#each search_results as result}
-		<EventCard
-			titel={result.Titel}
-			beschreibung={result.Beschreibung}
-			ort={result.Ort}
-			start={result.Start}
-			preis={result.Preis}
-			link={result.Link}
-		/>
-	{/each}
+	{#if loading}
+		<h1 aria-busy="true" />
+	{:else}
+		{#each search_results as result}
+			<EventCard
+				titel={result.Titel}
+				beschreibung={result.Beschreibung}
+				ort={result.Ort}
+				start={result.Start}
+				preis={result.Preis}
+				link={result.Link}
+			/>
+		{/each}
+	{/if}
 </main>

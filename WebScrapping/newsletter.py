@@ -17,11 +17,11 @@ if response.status_code == 200:
         title = item["title"]
 
 
-        print("Beginndatum:", startdate)
-        print("Endedatum:", enddate)
+        print("Start Datum:", startdate)
+        print("End datum:", enddate)
         print("Title:", title)
 
         print("Ort:", 'köln')
         print("-----")
 else:
-    print("Keine Daten ")
+    print("Keine Daten")

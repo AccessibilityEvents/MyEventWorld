@@ -20,21 +20,22 @@
 	let loading: boolean = false;
 
 	async function search() {
-		if (search_text === '') {
-			return;
-		}
 		loading = true;
+
 		const response = await fetch(`${BACKEND_SERVER}/api/search?therm=${search_text}`);
 		const data = await response.json();
 		search_results = data;
+
 		loading = false;
 	}
 
 	onMount(async () => {
 		loading = true;
+
 		const response = await fetch(`${BACKEND_SERVER}/api/all`);
 		const data = await response.json();
 		search_results = data;
+
 		loading = false;
 	});
 </script>
@@ -43,7 +44,7 @@
 	<h1>MyEventWorld</h1>
 
 	<form>
-		<input type="search" bind:value={search_text} placeholder="Suche" />
+		<input type="search" bind:value={search_text} placeholder="Suche" required/>
 		<a href="/sidebar">
 			<button style="width: 10%;" class="outline">
 				<SettingsIcon />

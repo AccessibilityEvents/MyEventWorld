@@ -22,7 +22,7 @@
 		<MapPinIcon />
 		{event.Ort} <br />
 		<CalendarDaysIcon />
-		{event.Datum} <br />
+		{event.Start} <br />
 
 		<GlobeIcon /> <a href={event.Link}>{event.Link}</a>
 	</footer>

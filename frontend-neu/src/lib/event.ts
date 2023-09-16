@@ -6,5 +6,4 @@ export interface Event {
 	Link: string;
 	Beschreibung: string;
 	Preis: string;
-	Datum: string;
 }

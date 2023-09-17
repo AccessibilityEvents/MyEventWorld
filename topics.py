@@ -1,6 +1,7 @@
 # Ordnet allen Einträgen mithilfe von KI Topics zu
+from dotenv import load_dotenv
 from copy import deepcopy
-from os import environ
+from os import environ, getenv
 from functools import lru_cache
 
 import openai
@@ -8,7 +9,7 @@ import openai
 import utils
 
 
-openai.api_key = environ.get("OPENAI_API_KEY")
+openai.api_key = getenv("OPENAI_API_KEY")
 
 
 def main():

@@ -18,8 +18,8 @@ def main():
     length = len(data["items"])
 
     for i, value in enumerate(reversed(deepcopy(data["items"]))):
-        if "thema" in value:
-            continue
+        # if "thema" in value:
+        #     continue
 
         text = value["title"] + value["description"]
         topic = [word.strip() for word in get_topic(text).split(",")]

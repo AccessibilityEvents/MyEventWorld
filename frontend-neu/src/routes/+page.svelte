@@ -28,7 +28,6 @@
 
 		if (!data.Code) {
 			search_results = data;
-			console.log(data)
 		} else {
 			search_results = [];
 		}

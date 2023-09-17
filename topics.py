@@ -9,6 +9,7 @@ import openai
 import utils
 
 
+load_dotenv()
 openai.api_key = getenv("OPENAI_API_KEY")
 
 

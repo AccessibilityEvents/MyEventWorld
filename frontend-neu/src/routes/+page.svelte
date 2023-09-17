@@ -11,6 +11,7 @@
 	let category: string = '';
 	let search_results: Event[] = [];
 	let loading: boolean = false;
+	let distance: number = 50;
 
 	async function search() {
 		loading = true;
@@ -79,8 +80,15 @@
 				<input id="ort" type="text" placeholder="Ort eingeben" />
 			</div>
 			<div>
-				<label for="distanz">Distanz</label>
-				<input id="distanz" type="range" min="0" max="100" />
+				<label for="distanz">
+					<div style="display: flex; justify-content: space-between;">
+						<div>Distanz</div>
+						<div>
+							{distance} km
+						</div>
+					</div>
+				</label>
+				<input bind:value={distance} id="distanz" type="range" min="0" max="100" />
 			</div>
 		</div>
 

@@ -15,12 +15,12 @@
 		loading = true;
 
 		let search_route: string;
-		if (search_text === '' && category === "") {
+		if (search_text === '' && category === '') {
 			search_route = 'all';
-			console.log("Search All")
+			console.log('Search All');
 		} else {
 			search_route = `search?therm=${search_text}&category=${category}`;
-			console.log("Search specific")
+			console.log('Search specific');
 		}
 
 		const response = await fetch(`${BACKEND_SERVER}/api/${search_route}`);
@@ -45,20 +45,27 @@
 
 	<form>
 		<div class="grid">
-			<input type="search" bind:value={search_text} placeholder="Suche" autofocus />
-			<select name="Kategorie" id="kategorie" bind:value={category}>
-				<option>MINT</option>
- 				<option>Politik</option>
-				<option>Bürgerbeteiligung</option>
-				<option>Sprache</option>
-				<option>Handwerk</option>
-				<option>Informatik</option>
-				<option>Kunst/Kultur</option>
-				<option>Geschichte</option>
-				<option>Logikspiele/Spiele</option>
-				<option>Sport</option>
-				<option>Schule</option>
-			</select>
+			<div>
+				<label for="search">Suche</label>
+				<input id="search" type="search" bind:value={search_text} placeholder="Suche" autofocus />
+			</div>
+
+			<div>
+				<label for="kategoire">Kategorie</label>
+				<select name="Kategorie" id="kategorie" bind:value={category}>
+					<option>MINT</option>
+					<option>Politik</option>
+					<option>Bürgerbeteiligung</option>
+					<option>Sprache</option>
+					<option>Handwerk</option>
+					<option>Informatik</option>
+					<option>Kunst/Kultur</option>
+					<option>Geschichte</option>
+					<option>Logikspiele/Spiele</option>
+					<option>Sport</option>
+					<option>Schule</option>
+				</select>
+			</div>
 		</div>
 
 		{#if !loading}

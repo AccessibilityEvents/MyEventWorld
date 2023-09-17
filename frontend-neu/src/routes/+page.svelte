@@ -4,7 +4,8 @@
 	import EventCard from './EventCard.svelte';
 	import type { Event } from '$lib/event.ts';
 
-	const BACKEND_SERVER = 'http://192.168.109.46:5000';
+	// const BACKEND_SERVER = 'backend:5000';
+	const BACKEND_SERVER = 'http://127.0.0.1:5000';
 
 	let search_text: string = '';
 	let category: string = '';

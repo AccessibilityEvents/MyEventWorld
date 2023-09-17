@@ -196,7 +196,7 @@
       "link": "http://www.stadt-koeln.de/leben-in-koeln/veranstaltungen/daten/33997/index.html",
       "beginndatum": "2023-09-16",
       "endedatum": "2023-09-16",
-      "title": "Weltkindertag – Mottowoche",
+      "title": "Weltkindertag - Mottowoche",
       "description": "Attraktionen für Kinder mit Karussell beim Tag der offenen Tür",
       "teaserbild": null,
       "uhrzeit": "9 bis 15 Uhr",
@@ -328,7 +328,7 @@
       "oepnv": null,
       "latitude": null,
       "longitude": null,
-      "preis": "",
+      "preis": "Die Teilnahme ist kostenlos.",
       "thema": [
         "Bürgerbeteiligung",
         "Sprache"
@@ -1948,7 +1948,7 @@
       "oepnv": "",
       "latitude": "50.938620",
       "longitude": "6.979567",
-      "preis": null,
+      "preis": "Die Teilnahme ist kostenlos.",
       "thema": [
         "Kunst/Kultur",
         "Sprache"
@@ -1995,7 +1995,7 @@
       "oepnv": "",
       "latitude": "50.938620",
       "longitude": "6.979567",
-      "preis": null,
+      "preis": "Die Teilnahme ist kostenlos.",
       "thema": [
         "Spiele",
         "Bürgerbeteiligung",
@@ -2012,7 +2012,7 @@
       "uhrzeit": "Das Foyer ist Montag bis Freitag, 6 bis 21 Uhr offen.",
       "veranstaltungsort": "Bezirksrathaus Mülheim",
       "plz": "51065",
-      "ort": " ",
+      "ort": "Köln",
       "stadtbezirk": "Mülheim",
       "stadtteil": "Mülheim",
       "strasse": "Wiener Platz",

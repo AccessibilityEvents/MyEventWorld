@@ -4,7 +4,7 @@
 	import EventCard from './EventCard.svelte';
 	import type { Event } from '$lib/event.ts';
 
-	const BACKEND_SERVER = 'http://10.26.186.224:5000';
+	const BACKEND_SERVER = 'http://192.168.109.46:5000';
 
 	let search_text: string = '';
 	let category: string = '';
@@ -28,7 +28,7 @@
 
 		if (!data.Code) {
 			search_results = data;
-			console.log(data)
+			console.log(data);
 		} else {
 			search_results = [];
 		}
@@ -66,6 +66,17 @@
 					<option>Sport</option>
 					<option>Schule</option>
 				</select>
+			</div>
+		</div>
+
+		<div class="grid">
+			<div>
+				<label for="ort">Ort</label>
+				<input id="ort" type="text" placeholder="Ort eingeben" />
+			</div>
+			<div>
+				<label for="distanz">Distanz</label>
+				<input id="distanz" type="range" min="0" max="100" />
 			</div>
 		</div>
 

@@ -43,7 +43,10 @@
 </script>
 
 <main class="container">
-	<h1>MyEventWorld</h1>
+	<div style="display: flex; align-items: baseline; justify-content: space-between;">
+		<h1>MyEventWorld</h1>
+		<img src="logo.png" alt="Logo" />
+	</div>
 
 	<form>
 		<div class="grid">

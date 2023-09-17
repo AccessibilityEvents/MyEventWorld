@@ -4,7 +4,8 @@ from os import environ
 from functools import lru_cache
 
 import openai
-from json import loads, dumps
+
+import utils
 
 
 openai.api_key = environ.get("OPENAI_API_KEY")
@@ -13,7 +14,7 @@ openai.api_key = environ.get("OPENAI_API_KEY")
 def main():
     file_path = "WebScrapping/Kölnopendata.json"
 
-    data = read_json_to_dict(file_path)
+    data = utils.read_json_to_dict(file_path)
     length = len(data["items"])
 
     for i, value in enumerate(reversed(deepcopy(data["items"]))):
@@ -26,23 +27,7 @@ def main():
 
         print(f"{i}/{length} - {topic} - {value['title']}")
 
-    write_dict_to_json(file_path, data)
-
-
-def write_dict_to_json(file_path: str, data: dict):
-    json_text = dumps(data, indent=2, ensure_ascii=False)
-
-    with open(file_path, "w", encoding="utf-8") as file:
-        file.write(json_text)
-
-
-def read_json_to_dict(file_path: str) -> dict:
-    with open(file_path, "r") as file:
-        text = file.read()
-
-        data = loads(text)
-
-    return data
+    utils.write_dict_to_json(file_path, data)
 
 
 @lru_cache

@@ -5,22 +5,23 @@
 	import MapPinIcon from '$lib/icons/map-pin.svelte';
 	import CalendarDaysIcon from '$lib/icons/calendar-days.svelte';
 	import GlobeIcon from '$lib/icons/globe.svelte';
+	import TagIcon from '$lib/icons/tag.svelte';
 
 	export let event: Event;
 </script>
 
 <article>
-	<h2>{event.Titel}</h2>
+	<h2>{event.title}</h2>
 
-	<p>{event.Beschreibung}</p>
+	<p>{event.description}</p>
 
 	<!-- <EventCardModal title={titel} description={beschreibung} link_to_event={link} time={start} /> -->
 	<add-to-calendar-button
-		name="{event.Titel}"
-		description="{event.Beschreibung}"
-		startDate="{event.Start}"
-		endDate="{event.Ende}"
-		location="{event.Ort}"
+		name={event.title}
+		description={event.description}
+		startDate={event.start_date}
+		endDate={event.end_date}
+		location={event.location}
 		options="['Apple','Google','iCal','Microsoft365','Outlook.com','Yahoo']"
 		timeZone="Europe/Berlin"
 		trigger="click"
@@ -31,12 +32,13 @@
 
 	<footer>
 		<EuroIcon />
-		{event.Preis} <br />
+		{event.price} <br />
 		<MapPinIcon />
-		{event.Ort} <br />
+		{event.location} <br />
 		<CalendarDaysIcon />
-		{event.Start} <br />
+		{event.start_date} <br />
+		<TagIcon /> {event.topics.replace(" ", ", ")} <br>
 
-		<GlobeIcon /> <a href={event.Link}>{event.Link}</a>
+		<GlobeIcon /> <a href={event.link}>{event.link}</a>
 	</footer>
 </article>

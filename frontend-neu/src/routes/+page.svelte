@@ -4,7 +4,7 @@
 	import EventCard from './EventCard.svelte';
 	import type { Event } from '$lib/event.ts';
 
-	const BACKEND_SERVER = 'http://192.168.167.46:5000/';
+	const BACKEND_SERVER = 'http://10.26.186.224:5000';
 
 	let search_text: string = '';
 	let category: string = '';
@@ -28,6 +28,7 @@
 
 		if (!data.Code) {
 			search_results = data;
+			console.log(data)
 		} else {
 			search_results = [];
 		}

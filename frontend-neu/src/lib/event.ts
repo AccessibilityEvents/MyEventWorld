@@ -1,9 +1,10 @@
 export interface Event {
-	Titel: string;
-	Start: string;
-	Ende: string;
-	Ort: string;
-	Link: string;
-	Beschreibung: string;
-	Preis: string;
+	title: string;
+	description: string;
+	link: string;
+	price: string;
+	start_date: string
+	end_date: string
+	location: string
+	topics: string
 }

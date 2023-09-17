@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "myeventworld"
+version = "0.1.0"
+description = ""
+authors = ["2mal3 <56305732+2mal3@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.3.3"
+flask-cors = "^4.0.0"
+gpt4all = "^1.0.12"
+openai = "^0.28.0"
+peewee = "^3.16.3"
+load-dotenv = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

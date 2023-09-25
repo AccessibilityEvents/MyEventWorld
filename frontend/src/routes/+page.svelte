@@ -3,9 +3,7 @@
 	import SettingsIcon from '$lib/icons/settings.svelte';
 	import EventCard from './EventCard.svelte';
 	import type { Event } from '$lib/event.ts';
-
-	// const BACKEND_SERVER = 'backend:5000';
-	const BACKEND_SERVER = 'http://127.0.0.1:5000';
+	import { PUBLIC_BACKEND_SERVER } from '$env/static/public';
 
 	let search_text: string = '';
 	let category: string = '';
@@ -25,7 +23,7 @@
 			console.log('Search specific');
 		}
 
-		const response = await fetch(`${BACKEND_SERVER}/api/${search_route}`);
+		const response = await fetch(`${PUBLIC_BACKEND_SERVER}/api/${search_route}`);
 		const data = await response.json();
 
 		if (!data.Code) {
